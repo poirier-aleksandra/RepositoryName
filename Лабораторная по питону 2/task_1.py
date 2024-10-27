@@ -5,7 +5,7 @@ increase = 0.03  # Ежемесячный рост цен
 
 months = 0
 
-while money_capital>spend:
+while money_capital > spend:
     money_capital += salary
     money_capital -= spend
     spend *= 1 + increase
