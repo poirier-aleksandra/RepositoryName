@@ -62,4 +62,4 @@ letter_count = count_letters(main_str)
 frequency = calculate_frequency(letter_count)
 
 for letter, freq in sorted(frequency.items()):
-    print(f"{letter}: {freq:.4f}")
+    print(f"{letter}: {freq:.2f}")
